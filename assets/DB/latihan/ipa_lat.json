@@ -1,0 +1,124 @@
+{
+    "id": "lat01",
+    "title": "IPA",
+    "image_url": "",
+    "questions": [
+        {
+            "id": "soal1",
+            "question": "Bagian tumbuhan yang berada di bawah tanah adalah …",
+            "correct_answer": "C",
+            "answers" : [
+                    {
+                        "identifier": "A",
+                        "Answer": "Daun"
+                    },
+                    {
+                        "identifier": "B",
+                        "Answer": "Bunga"
+                    },
+                    {
+                        "identifier": "C",
+                        "Answer": "Akar"
+                    },
+                    {
+                        "identifier": "D",
+                        "Answer": "Batang"
+                    }
+            ]
+        },
+        {
+            "id": "soal2",
+            "question": "Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+            "correct_answer": "B",
+            "answers" : [
+                    {
+                        "identifier": "A",
+                        "Answer": "Membuat rumah"
+                    },
+                    {
+                        "identifier": "B",
+                        "Answer": "Makanan"
+                    },
+                    {
+                        "identifier": "C",
+                        "Answer": "Lantai"
+                    },
+                    {
+                        "identifier": "D",
+                        "Answer": "Minuman"
+                    }
+            ]
+        },
+        {
+            "id": "soal3",
+            "question": "Kucing dapat mencium bau makanannya menggunakan...",
+            "correct_answer": "C",
+            "answers" : [
+                    {
+                        "identifier": "A",
+                        "Answer": "Ekornya"
+                    },
+                    {
+                        "identifier": "B",
+                        "Answer": "Cakarnya"
+                    },
+                    {
+                        "identifier": "C",
+                        "Answer": "Hidungnya"
+                    },
+                    {
+                        "identifier": "D",
+                        "Answer": "Kupingnya"
+                    }
+            ]
+        },
+        {
+            "id": "soal4",
+            "question": "Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+            "correct_answer": "B",
+            "answers" : [
+                    {
+                        "identifier": "A",
+                        "Answer": "Ikan"
+                    },
+                    {
+                        "identifier": "B",
+                        "Answer": "Sapi"
+                    },
+                    {
+                        "identifier": "C",
+                        "Answer": "Ular"
+                    },
+                    {
+                        "identifier": "D",
+                        "Answer": "Duyung"
+                    }
+            ]
+        },
+        {
+            "id": "soal5",
+            "question": "Para petani menanam padi dengan...",
+            "correct_answer": "A",
+            "answers" : [
+                    {
+                        "identifier": "A",
+                        "Answer": "Bijinya"
+                    },
+                    {
+                        "identifier": "B",
+                        "Answer": "Daunnya"
+                    },
+                    {
+                        "identifier": "C",
+                        "Answer": "Batangnya"
+                    },
+                    {
+                        "identifier": "D",
+                        "Answer": "Akarnya"
+                    }
+            ]
+        }
+
+    ]
+
+}

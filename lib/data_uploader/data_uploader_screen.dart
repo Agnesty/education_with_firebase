@@ -1,4 +1,6 @@
-import 'package:education_app_with_firebase/pembahasan_data_uploader.dart';
+import 'package:education_app_with_firebase/data_uploader/pembahasan_data_uploader.dart';
+import 'package:education_app_with_firebase/data_uploader/quizLatihan_data_uploader.dart';
+import 'package:education_app_with_firebase/data_uploader/quizUjian_data_uploader.dart';
 import 'package:education_app_with_firebase/services/loading_status.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

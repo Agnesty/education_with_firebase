@@ -1,0 +1,123 @@
+{
+    "id": "uji01",
+    "title": "IPA",
+    "image_url": "",
+    "time_seconds": 900,
+    "questions": [
+        {
+            "id": "soal1",
+            "question": "Hewan yang memiliki paruh adalah...",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Kucing"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Tikus"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Ayam"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Kecoa"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "soal2",
+            "question": "Hewan yang memiliki tanduk adalah...",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Singa"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Rusa"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Gajah"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Kucing"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "soal3",
+            "question": "Hewan yang biasanya digunakan petani untuk membajak sawah adalah...",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Kambing"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Kerbau"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Kuda"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Tikus"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "soal4",
+            "question": "Berikut ini hewan yang hidup di air adalah...",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "ikan, ular, ayam"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "belut, ikan, bebek"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "ikan, udang, kepiting"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "semua salah"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "soal5",
+            "question": "Contoh hewan amphibi adalah...",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "ikan"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "kucing"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "katak"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "singa"
+                }
+            ],
+            "correct_answer": "C"
+        }
+    ]
+}

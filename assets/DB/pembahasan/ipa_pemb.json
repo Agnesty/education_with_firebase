@@ -1,133 +1,1855 @@
 {
     "id": "pbhsn001",
     "title": "IPA",
-    "image_url": "",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fipa.png?alt=media&token=9d14ac0a-c92c-4d9d-a605-a9a57f41adbc",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "smt1": "Semester 1",
-    "smt2": "Semester 2",
     "materi": [
         {
             "id": "pbhsn001b01",
+            "angka": "1",
             "bab": "Bab 1",
             "judulBab": "Hewan Peliharaanku",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fipa.png?alt=media&token=9d14ac0a-c92c-4d9d-a605-a9a57f41adbc",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 1",
+            "title": "IPA",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+            ],
             "penjelasan" : [
                 {
                     "id":"mb1",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "penj" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b02",
+            "angka": "1",
             "bab": "Bab 2",
             "judulBab": "Kebunku",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fipa.png?alt=media&token=9d14ac0a-c92c-4d9d-a605-a9a57f41adbc",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 1",
+            "title": "IPA",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "2Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "2Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "2Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "2Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "2Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "2Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "2Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "2Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "2Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "2Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
+                    "id":"mb1",
+                    "penj" : "2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
                     "id": "mb2",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "penj" : "2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b03",
+            "angka": "1",
             "bab": "Bab 3",
             "judulBab": "Lingkungan",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fipa.png?alt=media&token=9d14ac0a-c92c-4d9d-a605-a9a57f41adbc",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 1",
+            "title": "IPA",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "3Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "3Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "3Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "3Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "3Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "3Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "3Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "3Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "3Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "3Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
+                    "id":"mb1",
+                    "penj" : "3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
                     "id":"mb3",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "penj" : "3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b04",
+            "angka": "1",
             "bab": "Bab 4",
             "judulBab": "Keluarga",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fipa.png?alt=media&token=9d14ac0a-c92c-4d9d-a605-a9a57f41adbc",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 1",
+            "title": "IPA",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "4Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "4Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "4Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "4Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "4Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "4Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "4Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "4Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "4Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "4Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb4",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b05",
+            "angka": "1",
             "bab": "Bab 5",
             "judulBab": "Kegiatan Sehari-hari",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fipa.png?alt=media&token=9d14ac0a-c92c-4d9d-a605-a9a57f41adbc",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 1",
+            "title": "IPA",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "5Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "5Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "5Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "5Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "5Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "5Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "5Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "5Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "5Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "5Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb5",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b06",
+            "angka": "1",
             "bab": "Bab 6",
             "judulBab": "Lingkungan Rumahku",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fipa.png?alt=media&token=9d14ac0a-c92c-4d9d-a605-a9a57f41adbc",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 2",
+            "title": "IPA",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "6Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "6Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "6Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "6Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "6Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "6Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "6Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "6Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "6Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "6Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb6",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "6Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "6Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "6Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b07",
+            "angka": "1",
             "bab": "Bab 7",
             "judulBab": "Peristiwa Alam",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fipa.png?alt=media&token=9d14ac0a-c92c-4d9d-a605-a9a57f41adbc",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 2",
+            "title": "IPA",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "7Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "7Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "7Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "7Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "7Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "7Bagian tumbuhan yang berada di bawah tanah adalah …",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Daun"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Bunga"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Akar"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Batang"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "7Buah-buahan yang dihasilkan dari tumbuhan dimanfaatkan manusia sebagai bahan...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Membuat rumah"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Makanan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Lantai"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Minuman"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "7Kucing dapat mencium bau makanannya menggunakan...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ekornya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Cakarnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Hidungnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Kupingnya"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "7Hewan dibawah ini yang bergerak menggunakan kaki adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ikan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Sapi"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Ular"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Duyung"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "7Para petani menanam padi dengan...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Bijinya"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Daunnya"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Batangnya"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Akarnya"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb7",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "7Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "7Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "7Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]

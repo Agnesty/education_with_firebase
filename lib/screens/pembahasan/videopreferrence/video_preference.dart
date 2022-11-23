@@ -25,10 +25,10 @@ class _VideoLandscapePreferenceState extends State<VideoLandscapePreference> {
   @override
   void initState() {
     super.initState();
-    
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      _initPlayer();
-    });
+    _initPlayer();
+    // WidgetsBinding.instance.addPostFrameCallback((_) {
+    //   _initPlayer();
+    // });
   }
 
   void _initPlayer() async {
@@ -55,7 +55,7 @@ class _VideoLandscapePreferenceState extends State<VideoLandscapePreference> {
                 controller: chewieController,
               ),
             )
-          : CircularProgressIndicator(),
+          : const CircularProgressIndicator(),
     );
   }
 

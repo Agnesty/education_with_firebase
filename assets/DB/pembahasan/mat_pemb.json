@@ -1,259 +1,3715 @@
 {
     "id": "pbhsn002",
     "title": "Matematika",
-    "image_url": "",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "smt1": "Semester 1",
-    "smt2": "Semester 2",
     "materi": [
         {
             "id": "pbhsn001b01",
+            "angka": "2",
             "bab": "Bab 1",
             "judulBab": "Bilangan 1 - 1000",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 1",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
                     "id":"mb1",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "penj" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b02",
+            "angka": "2",
             "bab": "Bab 2",
             "judulBab": "Cara Berhitung",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 1",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "2Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "2Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "2Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "2Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "2Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "2Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "2Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "2Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "2Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "2Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb2",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b03",
+            "angka": "2",
             "bab": "Bab 3",
             "judulBab": "Waktu & Durasi",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 1",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "3Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "3Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "3Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "3Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "3Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "3Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "3Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "3Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "3Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "3Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
+                    "id":"mb1",
+                    "penj" : "3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
                     "id":"mb3",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "penj" : "3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b04",
+            "angka": "2",
             "bab": "Bab 4",
             "judulBab": "Penjumlahan Bersusun",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 1",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "4Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "4Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "4Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "4Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "4Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "4Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "4Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "4Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "4Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "4Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb4",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b05",
+            "angka": "2",
             "bab": "Bab 5",
             "judulBab": "Pengurangan Bersusun",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 1",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "5Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "5Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "5Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "5Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "5Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "5Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "5Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "5Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "5Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "5Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb5",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "5Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b06",
+            "angka": "2",
             "bab": "Bab 6",
             "judulBab": "Panjang",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 1",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "6Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "6Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "6Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "6Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "6Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "6Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "6Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "6Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "6Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "6Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb6",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "6Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "6Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "6Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b07",
+            "angka": "2",
             "bab": "Bab 7",
             "judulBab": "Tabel & Grafik",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 1",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "7Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "7Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "7Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "7Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "7Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "7Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "7Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "7Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "7Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "7Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb7",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "7Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "7Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "7Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b08",
+            "angka": "2",
             "bab": "Bab 8",
             "judulBab": "Banyaknya Air",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 1",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "8Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "8Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "8Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "8Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "8Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "8Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "8Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "8Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "8Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "8Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb8",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "8Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "8Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "8Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b09",
+            "angka": "2",
             "bab": "Bab 9",
             "judulBab": "Penjumlahan & Pengurangan",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 2",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "9Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "9Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "9Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "9Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "9Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "9Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "9Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "9Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "9Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "9Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb9",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "9Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "9Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "9Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b10",
+            "angka": "2",
             "bab": "Bab 10",
             "judulBab": "Perkalian & Pembagian Pecahan",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 2",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "10Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "10Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "10Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "10Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "10Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "10Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "10Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "10Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "10Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "10Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb10",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "10Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "10Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "10Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b11",
+            "angka": "2",
             "bab": "Bab 11",
             "judulBab": "Luas Bangun Datar",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 2",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "11Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "11Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "11Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "11Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "11Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "11Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "11Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "11Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "11Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "11Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb11",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "11Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "11Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "11Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b12",
+            "angka": "2",
             "bab": "Bab 12",
             "judulBab": "Perbandingan",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 2",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "12Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "12Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "12Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "12Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "12Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "12Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "12Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "12Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "12Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "12Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb12",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "12Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "12Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "12Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b13",
+            "angka": "2",
             "bab": "Bab 13",
             "judulBab": "Segi Banyak Beraturan & Lingkaran",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 2",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "13Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "13Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "13Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "13Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "13Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "13Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "13Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "13Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "13Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "13Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb13",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "13Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "13Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "13Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]
         },
         {
             "id": "pbhsn001b14",
+            "angka": "2",
             "bab": "Bab 14",
             "judulBab": "Bangun Ruang",
             "waktu": "50 Menit",
-            "imageBab" : "",
+            "imageBab" : "https://firebasestorage.googleapis.com/v0/b/education-app-a2549.appspot.com/o/img-matapelajaran%2Fmatematika.png?alt=media&token=4d70bc09-4250-4c90-ab66-f52966c503ea",
+            "imgVi" : "",
+            "nameVi": "",
+            "smt": "Semester 2",
+            "title": "Matematika",
+            "urlVi": "https://firebasestorage.googleapis.com/v0/b/webook-f9ace.appspot.com/o/Webfun%20Introduction%20(1080p).mp4?alt=media&token=62649bae-6a4f-4b6f-a163-57d5c279dd8b",
+            "time_seconds": 900,
+            "questionsLat": [
+                {
+                    "id": "soal1",
+                    "question": "14Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "14Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "14Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "14Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "14Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
+            "questionsUji": [
+                {
+                    "id": "soal1",
+                    "question": "14Angka 255 dibaca...",
+                    "correct_answer": "D",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Dua ratus dua lima"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Dua ratus dua puluh lima"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Dua ratus lima"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Dua ratus lima puluh lima"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal2",
+                    "question": "14Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+                    "correct_answer": "C",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "123, 223, 423, 323"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "123, 323, 223, 423"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "123, 223, 323, 423"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "423, 323, 233, 123"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal3",
+                    "question": "14Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "lebih sedikit (<)"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "lebih banyak (>)"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "sama dengan (=)"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "lebih banyak dan sedikit"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal4",
+                    "question": "14Angka 4 pada bilangan 412 nilainya adalah...",
+                    "correct_answer": "A",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "Ratusan"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "Puluhan"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "Satuan"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "Ribuan"
+                            }
+                    ]
+                },
+                {
+                    "id": "soal5",
+                    "question": "14Hasil dari 225 + 122 adalah...",
+                    "correct_answer": "B",
+                    "answers" : [
+                            {
+                                "identifier": "A",
+                                "Answer": "374"
+                            },
+                            {
+                                "identifier": "B",
+                                "Answer": "347"
+                            },
+                            {
+                                "identifier": "C",
+                                "Answer": "473"
+                            },
+                            {
+                                "identifier": "D",
+                                "Answer": "512"
+                            }
+                    ]
+                }
+        
+            ],
             "penjelasan" : [
                 {
-                    "id":"mb14",
-                    "penj1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-                    "penj3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "id":"mb1",
+                    "penj" : "14Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id": "mb2",
+                    "penj" : "14Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "id":"mb3",
+                    "penj" : "14Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
                 }
             ]

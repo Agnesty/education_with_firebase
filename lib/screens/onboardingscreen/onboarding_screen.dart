@@ -65,7 +65,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                             Navigator.pushNamed(context, HomeScreen.routeName);
                           },
                         ),
-                        Spacer(),
+                        const Spacer(),
                       ],
                     ),
                   )),

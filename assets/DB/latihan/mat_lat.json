@@ -1,0 +1,124 @@
+{
+    "id": "lat02",
+    "title": "Matematika",
+    "image_url": "",
+    "questions": [
+        {
+            "id": "soal1",
+            "question": "Angka 255 dibaca...",
+            "correct_answer": "D",
+            "answers" : [
+                    {
+                        "identifier": "A",
+                        "Answer": "Dua ratus dua lima"
+                    },
+                    {
+                        "identifier": "B",
+                        "Answer": "Dua ratus dua puluh lima"
+                    },
+                    {
+                        "identifier": "C",
+                        "Answer": "Dua ratus lima"
+                    },
+                    {
+                        "identifier": "D",
+                        "Answer": "Dua ratus lima puluh lima"
+                    }
+            ]
+        },
+        {
+            "id": "soal2",
+            "question": "Urutan dari yang terkecil ke yang terbesar bilangan 223, 123, 323, 423 adalah...",
+            "correct_answer": "C",
+            "answers" : [
+                    {
+                        "identifier": "A",
+                        "Answer": "123, 223, 423, 323"
+                    },
+                    {
+                        "identifier": "B",
+                        "Answer": "123, 323, 223, 423"
+                    },
+                    {
+                        "identifier": "C",
+                        "Answer": "123, 223, 323, 423"
+                    },
+                    {
+                        "identifier": "D",
+                        "Answer": "423, 323, 233, 123"
+                    }
+            ]
+        },
+        {
+            "id": "soal3",
+            "question": "Banyak buku 235, sedangkan banyak pensil 325. Maka banyak buku. banyak pensil...",
+            "correct_answer": "B",
+            "answers" : [
+                    {
+                        "identifier": "A",
+                        "Answer": "lebih sedikit (<)"
+                    },
+                    {
+                        "identifier": "B",
+                        "Answer": "lebih banyak (>)"
+                    },
+                    {
+                        "identifier": "C",
+                        "Answer": "sama dengan (=)"
+                    },
+                    {
+                        "identifier": "D",
+                        "Answer": "lebih banyak dan sedikit"
+                    }
+            ]
+        },
+        {
+            "id": "soal4",
+            "question": "Angka 4 pada bilangan 412 nilainya adalah...",
+            "correct_answer": "A",
+            "answers" : [
+                    {
+                        "identifier": "A",
+                        "Answer": "Ratusan"
+                    },
+                    {
+                        "identifier": "B",
+                        "Answer": "Puluhan"
+                    },
+                    {
+                        "identifier": "C",
+                        "Answer": "Satuan"
+                    },
+                    {
+                        "identifier": "D",
+                        "Answer": "Ribuan"
+                    }
+            ]
+        },
+        {
+            "id": "soal5",
+            "question": "Hasil dari 225 + 122 adalah...",
+            "correct_answer": "B",
+            "answers" : [
+                    {
+                        "identifier": "A",
+                        "Answer": "374"
+                    },
+                    {
+                        "identifier": "B",
+                        "Answer": "347"
+                    },
+                    {
+                        "identifier": "C",
+                        "Answer": "473"
+                    },
+                    {
+                        "identifier": "D",
+                        "Answer": "512"
+                    }
+            ]
+        }
+
+    ]
+
+}

@@ -178,7 +178,7 @@ class Pembahasan3Screen extends GetView<MateriCtr> {
               child: Container(
                 width: MediaQuery.of(context).size.width,
                 padding: EdgeInsets.all(15),
-                margin: EdgeInsets.only(bottom: 20, right: 30, left: 30),
+                margin: EdgeInsets.only(top: 15, bottom: 20, right: 30, left: 30),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(10)),
                     color: Colors.deepPurple),

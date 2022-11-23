@@ -1,5 +1,6 @@
 import 'package:education_app_with_firebase/controller/materi_ctr.dart';
 import 'package:education_app_with_firebase/controller/pembahasan_ctr.dart';
+import 'package:education_app_with_firebase/controller/quizLat_ctr.dart';
 import 'package:education_app_with_firebase/screens/home/home_menu_screen.dart';
 import 'package:education_app_with_firebase/screens/onboardingscreen/onboarding_screen.dart';
 import 'package:education_app_with_firebase/screens/pembahasan/components/video_widget.dart';
@@ -45,11 +46,11 @@ class Routes {
         GetPage(
           name: "/quizlatihanscreen",
           page: () => const QuizLatihanScreen(),
-          // binding: BindingsBuilder(
-          //   () {
-          //     Get.put(MateriCtr());
-          //   },
-          // )
+          binding: BindingsBuilder(
+            () {
+              Get.put(QuizLatCtr());
+            },
+          )
         ),
       ];
 }

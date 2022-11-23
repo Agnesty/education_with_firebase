@@ -1,0 +1,123 @@
+{
+    "id": "uji02",
+    "title": "Matematika",
+    "image_url": "",
+    "time_seconds": 900,
+    "questions": [
+        {
+            "id": "soal1",
+            "question": "Ejaan atas bilangan 267 yang tepat adalah...",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "dua ratus enam tujuh"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "dua, enam, tujuh"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "dua ratus enam puluh tujuh"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "semua salah"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "soal2",
+            "question": "Empat ratus dua puluh delapan, apabila ditulis dengan bentuk bilangan menjadi...",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "428"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "289"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "4298"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "248"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "soal3",
+            "question": "Angka yang mempunyai nilai ratusan pada bilangan 387 ini ialah ....",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "3"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "8"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "7"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "0"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "soal4",
+            "question": "Angka yang bernilai puluhan atas bilangan 123 ini adalah...",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "3"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "2"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "1"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "0"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "soal5",
+            "question": "Angka 3 yang ada pada bilangan 234 mengandung nilai...",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "puluhan"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "ribuan"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "satuan"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "ratusan"
+                }
+            ],
+            "correct_answer": "A"
+        }
+    ]
+}

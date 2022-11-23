@@ -1,5 +1,5 @@
 import 'package:education_app_with_firebase/binding/initial_binding.dart';
-import 'package:education_app_with_firebase/data_uploader_screen.dart';
+import 'package:education_app_with_firebase/data_uploader/data_uploader_screen.dart';
 import 'package:education_app_with_firebase/route/routes.dart';
 import 'package:education_app_with_firebase/screens/splashscreen/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -26,9 +26,9 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'education app with firebase',
-      // home: DataUploaderScreen(),
-      initialRoute: SplashScreen.routeName,
-      getPages: Routes.pages(),
+       home: DataUploaderScreen(),
+      // initialRoute: SplashScreen.routeName,
+      // getPages: Routes.pages(),
     );
   }
 }
