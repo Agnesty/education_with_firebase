@@ -1,7 +1,7 @@
-# education_app_with_firebase
+# education_app_with_firebase/ STILL IN PROGRESS
 
 A new Flutter project.
-Still in Progress
+
 
 ## Getting Started
 
